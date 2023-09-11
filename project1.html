@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1>Employee Interests Survey Form</h1>
+    <label for="name">Enter your name</label>
+    <input type="text" name="name" id="name" />
+    <div>
+      <label for="depart">Enter your Department</label>
+      <input type="text" id="depart" />
+    </div>
+    <div>
+      <br />
+      <label for="abt">Write about yourself</label>
+      <textarea id="abt" cols="30" rows="5"></textarea>
+    </div>
+    <div>
+      <label for="exc">Do you exercise at home</label>
+      <input type="radio" name= "gym" id="exc" />Yes
+      <input type="radio"  name="gym"  />No
+
+    </div>
+    <div>
+        How do you like to read about your favourite topics ?
+    </div>
+    <div>
+       <input type="checkbox">Books
+       <input type="checkbox"> Other resources
+       <input type="checkbox"> Phones apps 
+       <input type="checkbox"> Magazines
+            
+
+
+    </div>
+    <div>
+        <label for="movie">What genere of movie do you like ?</label>
+        <select name="" id="moive">
+            <option value="horror">Horror</option>
+            <option value="comedy" selected>Comedy</option>
+
+        </select>
+    </div>
+    <div>
+        <input type="submit" value="Submit Form">
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

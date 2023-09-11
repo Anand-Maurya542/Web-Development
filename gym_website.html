@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anand Fitness Centre </title>
+</head>
+<link rel="stylesheet" hre0f="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap" rel="stylesheet">
+<style>
+    /* css reset8*/
+    body{
+        color: white;
+        font-family: 'The Nautigal', cursive;
+        margin:0px;
+        padding: 0px;
+        background:url(bg.jpg);
+        /* height: 4544px; */
+    }
+    .left{
+        border: 2px solid red;
+        display: inline-block;
+        position: absolute;
+        top:22px;
+        left: 34px;
+    }
+    .mid{
+        width: 34%;
+        display: block;
+        margin: 22px auto;
+        border: 2px solid green;
+
+    }
+    .right{
+        position: absolute;
+        display: inline-block;
+        border: 2px solid yellow;
+        top:22px;
+        right: 34px;
+
+    }
+    .left img{
+        
+        width: 33px;
+    }
+.left div{
+    text-align: center;
+}
+    .navbar li{
+        display: inline-block;
+        font-size: 19px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none ;
+        padding: 34px 13px;
+    }
+    .navbar li a:hover, .navbar li a:active {
+        text-decoration: underline;
+        color: grey;
+    }
+    .btn{
+        margin: 0px 9px;
+        background-color: white;
+        color: black;
+        padding: 4px 14px;
+        border: 2px solid grey ;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(83, 77, 77);
+    }
+</style>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+           <img src="bg.jpg" alt="">
+           <div>Anand Fitness</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar"> 
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness centre</a></li>
+                <li><a href="#">Contact us </a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">call us now</button>
+            <button class="btn">Email us </button>
+        </div>
+
+    </header>
+
+</body>
+</html>
